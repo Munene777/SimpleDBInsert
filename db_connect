@@ -1,0 +1,10 @@
+<?php
+$Error="Failed  to connect!";
+$server="localhost";
+$user="root";
+$pass="###";//set a password for your database
+@mysql_connect($server,$user,$pass)
+	or die($Error);//if the connection fails the error is displayed and script terminated
+
+
+?>
